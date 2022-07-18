@@ -42,7 +42,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15sp"
             android:fontFamily="sans-serif-light"
-            android:text="DANNY SAPUTRA"
+            android:text="Harizky Bagustio"
             android:textColor="#000000"
             android:textSize="32sp" />
 
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="25"
+                    android:text="30"
                     android:textColor="#000000"
                     android:textSize="25sp" />
 
@@ -126,7 +126,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="35"
+                    android:text="40"
                     android:textColor="#000000"
                     android:textSize="25sp" />
 
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="Dannysaputra@gmail.com"
+                    android:text="Hbagustio@gmail.com"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="+62 812-6645-3157"
+                    android:text="+62 823-6059-5868"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -236,7 +236,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="instagram.com/dannysaputranst"
+                    android:text="instagram.com/hariskybagustio"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -266,7 +266,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="facebook.com/dannysaputranst"
+                    android:text="facebook.com/hariskybagustio"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
