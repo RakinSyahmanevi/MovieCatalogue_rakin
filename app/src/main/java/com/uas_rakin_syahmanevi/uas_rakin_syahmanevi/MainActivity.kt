@@ -1,4 +1,4 @@
-package com.arizki_uas.uas_arizki
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

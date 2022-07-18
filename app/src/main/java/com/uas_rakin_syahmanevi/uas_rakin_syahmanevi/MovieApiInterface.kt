@@ -1,4 +1,4 @@
-package com.arizki_uas.uas_arizki
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi
 
 import retrofit2.Call
 import retrofit2.http.GET

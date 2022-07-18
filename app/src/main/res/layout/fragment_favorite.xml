@@ -8,7 +8,7 @@
         android:id="@+id/rellay1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/followers"
+        android:background="@color/headings"
         android:paddingBottom="20dp">
 
         <RelativeLayout
@@ -42,7 +42,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15sp"
             android:fontFamily="sans-serif-light"
-            android:text="Harizky Bagustio"
+            android:text="Rakin Syahmanevi"
             android:textColor="#000000"
             android:textSize="32sp" />
 
@@ -150,7 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/linlay1"
-        android:background="@color/grey">
+        android:background="@color/headings">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="Hbagustio@gmail.com"
+                    android:text=" 1910031802107@sar.ac.id"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="+62 823-6059-5868"
+                    android:text="+62 851-6178-5693"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -236,7 +236,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="instagram.com/hariskybagustio"
+                    android:text="instagram.com/rakinsyahmanevii"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -246,36 +246,6 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
                     android:background="@color/grey" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Facebook"
-                    android:textColor="#E91E63"
-                    android:textSize="13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:text="facebook.com/hariskybagustio"
-                    android:textColor="#000000"
-                    android:textSize="18sp" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="15dp"
-                    android:background="@color/grey" />
-
 
             </LinearLayout>
 

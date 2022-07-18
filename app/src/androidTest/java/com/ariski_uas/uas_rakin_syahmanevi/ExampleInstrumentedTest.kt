@@ -1,4 +1,4 @@
-package com.danny.uasdanny_nativ
+package com.danny.uas_rakin_syahmanevi
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

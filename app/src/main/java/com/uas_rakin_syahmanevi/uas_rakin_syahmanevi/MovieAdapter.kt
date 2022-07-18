@@ -1,4 +1,4 @@
-package com.arizki_uas.uas_arizki
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_detail_movie.view.*
-import kotlinx.android.synthetic.main.activity_detail_movie.view.overview
 import kotlinx.android.synthetic.main.fragment_tv_show_fragmant.view.*
 import kotlinx.android.synthetic.main.movie_item.view.*
 import kotlinx.android.synthetic.main.movie_item.view.movie_poster

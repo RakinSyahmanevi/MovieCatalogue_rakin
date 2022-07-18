@@ -1,11 +1,11 @@
-package com.arizki_uas.uas_arizki.fragment
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.arizki_uas.uas_arizki.IMAGE_BASE
-import com.arizki_uas.uas_arizki.Movie
-import com.arizki_uas.uas_arizki.R
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.IMAGE_BASE
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.Movie
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.R
 import kotlinx.android.synthetic.main.activity_detail_movie.*
 
 class DetailMovieActivity : AppCompatActivity() {

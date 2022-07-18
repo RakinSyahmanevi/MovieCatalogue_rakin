@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textSize="18sp"
-    android:background="@color/headings"
-    tools:context="com.arizki_uas.uas_arizki.fragment.DetailMovieActivity"
+    android:background="@color/purple_200"
+    tools:context="com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment.DetailMovieActivity"
     android:textColor="#000000">
 
     <TextView

@@ -1,26 +1,25 @@
-package com.arizki_uas.uas_arizki.fragment.movie
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment.movie
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.arizki_uas.uas_arizki.*
-import com.arizki_uas.uas_arizki.fragment.DetailMovieActivity
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.*
 import kotlinx.android.synthetic.main.fragment_movie.*
+import kotlinx.android.synthetic.main.fragment_movie1.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class MovieFragment : Fragment() {
+class TvShowFragment : Fragment() {
 
     var movies: List<Movie>? = null
-    private lateinit var movieAdapter: MovieAdapter
+    private lateinit var MovieAdapter1: MovieAdapter1
 
     companion object {
-        fun newInstance() = MovieFragment()
+        fun newInstance() = TvShowFragment()
     }
 
 
@@ -28,21 +27,15 @@ class MovieFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_movie, container, false)
+        return inflater.inflate(R.layout.fragment_tv_show_fragmant, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         rv_movies_list.layoutManager = LinearLayoutManager(activity)
         rv_movies_list.setHasFixedSize(true)
-        getMovieData { movies: List<Movie> ->
-            rv_movies_list.adapter = MovieAdapter(movies, object : MovieAdapter.OnAdapterListener {
-                override fun onClick(result: Movie) {
-                    val intent = Intent(activity, DetailMovieActivity::class.java)
-                    intent.putExtra(DetailMovieActivity.EXTRA_DATA, result)
-                    startActivity(intent)
-                }
-            })
+        getMovieData { movies : List<Movie> ->
+            rv_movies_list2.adapter = MovieAdapter1(movies)
         }
     }
 

@@ -1,11 +1,11 @@
-package com.arizki_uas.uas_arizki.fragment.movie
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment.movie
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.arizki_uas.uas_arizki.R
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.R
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"

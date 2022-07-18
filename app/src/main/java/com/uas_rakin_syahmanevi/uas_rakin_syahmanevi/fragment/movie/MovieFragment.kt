@@ -1,24 +1,26 @@
-package com.arizki_uas.uas_arizki.fragment.movie
+package com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment.movie
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.arizki_uas.uas_arizki.*
-import kotlinx.android.synthetic.main.fragment_movie1.*
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.*
+import com.uas_rakin_syahmanevi.uas_rakin_syahmanevi.fragment.DetailMovieActivity
+import kotlinx.android.synthetic.main.fragment_movie.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class MovieFragment1 : Fragment() {
+class MovieFragment : Fragment() {
 
     var movies: List<Movie>? = null
-    private lateinit var MovieAdapter1: MovieAdapter1
+    private lateinit var movieAdapter: MovieAdapter
 
     companion object {
-        fun newInstance() = MovieFragment1()
+        fun newInstance() = MovieFragment()
     }
 
 
@@ -26,15 +28,21 @@ class MovieFragment1 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_movie1, container, false)
+        return inflater.inflate(R.layout.fragment_movie, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        rv_movies_list2.layoutManager = LinearLayoutManager(activity)
-        rv_movies_list2.setHasFixedSize(true)
-        getMovieData { movies : List<Movie> ->
-            rv_movies_list2.adapter = MovieAdapter1(movies)
+        rv_movies_list.layoutManager = LinearLayoutManager(activity)
+        rv_movies_list.setHasFixedSize(true)
+        getMovieData { movies: List<Movie> ->
+            rv_movies_list.adapter = MovieAdapter(movies, object : MovieAdapter.OnAdapterListener {
+                override fun onClick(result: Movie) {
+                    val intent = Intent(activity, DetailMovieActivity::class.java)
+                    intent.putExtra(DetailMovieActivity.EXTRA_DATA, result)
+                    startActivity(intent)
+                }
+            })
         }
     }
 
